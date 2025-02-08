@@ -11,7 +11,7 @@ const nextConfig: NextConfig = {
   //   ignoreBuildErrors: true,
   // },
   webpack: (config) => {
-    config.resolve.fallback = { ...config.resolve.fallback, request: false };
+    //config.resolve.fallback = { ...config.resolve.fallback, request: false };
 
     return config;
   },
